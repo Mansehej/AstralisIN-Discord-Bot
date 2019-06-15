@@ -59,7 +59,7 @@
         t = p[1],
         dec = p[2] == "base64" ? atob : decodeURIComponent,
         bin = dec(p.pop()),
-        mx = bin.length,
+        mx = 3,
         i = 0,
         uia = new Uint8Array(mx);
 
